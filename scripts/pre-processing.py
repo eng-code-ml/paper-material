@@ -5,8 +5,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.feature_selection import RFECV
 
 
-X = pd.read_csv('../data/filtered-X.csv')
-y = pd.read_csv('../data/filtered-y.csv', header=None)
+X = pd.read_csv('../data/processed-X.csv')
+y = pd.read_csv('../data/processed-y.csv', header=None)
 y.drop(0, axis=1, inplace=True)
 X.drop('Unnamed: 0', axis=1, inplace=True)
 
