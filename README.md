@@ -13,4 +13,5 @@ Below you can find info about all the files contained in the repository.
 + scripts - contains all the scripts necessary to run the experiment
     - ml-script-various-classifiers.py - Python script to train and test all classifiers
     - pre-processing.py - Python script for feature selection and scaling
+    - script.R - R script to obtain mean values for each metric and to run Wilcoxon tests
 
