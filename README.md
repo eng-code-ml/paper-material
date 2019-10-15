@@ -10,7 +10,7 @@ Below you can find info about all the files contained in the repository.
     - raw - contains all the data without preprocessing (raw, without filtering by SLOC and non-normalized)
         * github-10k-non-eng.csv.zip - zip file with data from the non-engineered sample methods
         * github-550-eng.csv.zip - zip file with data from the engineered sample methods
-+ scripts - contains all the scripts necessary to run the experiment
++ scripts - contains all the scripts necessary to run the experiments
     - ml-script-various-classifiers.py - Python script to train and test all classifiers
     - pre-processing.py - Python script for feature selection and scaling
     - script.R - R script to obtain mean values for each metric and to run Wilcoxon tests
