@@ -2,7 +2,9 @@
 
 We created this anonymous GitHub account to publish our experimental data for the reviewers. Later we intend to move this repository to our group's account.
 
-Below you can find info about all the files contained in the repository.
+Below you can find info about all the files contained in the repository. Basically we devided everything into DATA and SCRIPTS. The scripts are self-explanatory. 
+
+*Important Note*: you need to first unzip processed-X.csv.zip in order to run the scripts properly.
 
 + data - contains all the data used in our experiments
     - processed-X.csv.zip - zip file containing all metric values (filtered - SLOC>3 - and normalized by NTOKENS)
