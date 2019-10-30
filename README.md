@@ -13,7 +13,9 @@ Below you can find info about all the files contained in the repository. Basical
         * github-10k-non-eng.csv.zip - zip file with data from the non-engineered sample methods
         * github-550-eng.csv.zip - zip file with data from the engineered sample methods
 + scripts - contains all the scripts necessary to run the experiments
-    - ml-script-various-classifiers.py - Python script to train and test all classifiers
     - pre-processing.py - Python script for feature selection and scaling
+    - correlation_analysis.py - Python script to perform the correlation analysis
+    - ml-script-various-classifiers.py - Python script to train and test all classifiers
+    - hyper-parameter-tuning-RF.py - Python script to perform hyper-parameter tuning on Random Forest
     - script.R - R script to obtain mean values for each metric and to run Wilcoxon tests
 
