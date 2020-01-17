@@ -9,3 +9,5 @@ data$eng = target$V2
 sapply(split(data, data$eng == 0), function(x) colMeans(x))
 # to run wilcoxon tests for each metric comparing engineered and non-engineered methods
 sapply(data[,1:27], function(i) wilcox.test(i ~ data$eng))
+# to perform the point-biserial correlation analysis (calculated the same way as the Pearson correlation)
+cor(data, method = "pearson")
