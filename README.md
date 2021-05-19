@@ -1,4 +1,4 @@
-# On Distinguishing (Non-)Engineered Code with Machine Learning: A Study of 1M Methods (experimental material repository)
+# Learning Engineered Code from Software Quality Metrics
 
 We created this anonymous GitHub account to publish our experimental data for the reviewers. Later we intend to move this repository to our group's account.
 
